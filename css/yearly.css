@@ -1,0 +1,24 @@
+.Monthly{
+    margin-right: 5px;
+    padding-left: 3px;
+    padding-right: 5px;
+    background-color:#1F4D90;
+    border-radius: 20px;
+    font: smaller;
+    font-weight: 300;
+}
+.Yearly{
+    margin-right: 5px;
+    padding-left: 3px;
+    padding-right: 5px;
+    background-color:#fff;
+    border-radius: 20px;
+    font: smaller;
+    font-weight: 300;
+}
+.Yearly a{
+   color:#1F4D90 ;
+}
+.Monthly a{
+    color: white;
+}

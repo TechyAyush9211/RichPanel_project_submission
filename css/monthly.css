@@ -1,0 +1,192 @@
+body{
+    background-color: #fff;
+}
+.container2{
+    position: fixed;
+    margin: 5px 5px 5px 5px;
+    top: 0;
+    right: 0;
+    background:  #1F4D90;
+    padding: 6px;
+    color: #fff;
+    font-size: medium;
+    display : flex;
+    flex-direction : row;
+    border-radius: 20px;
+}
+.welcomeName{
+    margin-right: 5px;
+    padding-right: 5px;
+}
+.logoutbtn{
+    margin-right: 5px;
+    padding-left: 3px;
+    padding-right: 5px;
+    background-color:#fff;
+    border-radius: 20px;
+}
+a{
+    color: black;
+    text-decoration-line: none;
+    text-decoration-color: black;
+    text-emphasis-color: Red;
+}
+.planswin{
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.chooseplan{
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    color: gray;
+}
+.switch-wrapper{
+   background:  #1F4D90;
+   height: 20px;
+   width: 120px;
+   padding: 6px;
+   color: #fff;
+   font-size: medium;
+   display : flex;
+   flex-direction : row;
+   flex-wrap: nowrap;
+   border-radius: 20px;
+}
+.Monthly{
+    margin-right: 5px;
+    padding-left: 3px;
+    padding-right: 5px;
+    background-color:#fff;
+    border-radius: 20px;
+    font: smaller;
+    font-weight: 300;
+}
+.Yearly{
+    margin-right: 5px;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+.Monthly a{
+   color:#1F4D90 ;
+}.Yearly a{
+    color: white;
+}
+th{
+    padding-bottom: 5px;
+}
+td{
+    border-bottom: 1px solid lightgray;
+    color: lightslategray;
+    text-align: center;
+}
+table{
+    height: 300px;
+    width: 800px;
+    font-size: smaller;
+    font-weight: 200;
+    border-collapse: collapse;
+}
+.top{
+    color: black;
+    vertical-align: top;
+    text-align: left;
+}
+.devices{
+    font-size: x-small;
+    border-bottom: none;
+}
+#device{
+    border-bottom: none;
+}
+.paymentbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payBTN{
+    color:#1F4D90 ;
+    background-color:#1F4D91 ;
+    color: #ffffff;
+    width: 20%;
+    padding: 10px;
+    margin-top: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* ============================================================= */
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.radio-tile-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.radio-tile-group .input-container {
+position: relative;
+height: 80px;
+width: 80px;
+margin: 0.5rem;
+}
+
+.radio-tile-group .input-container .radio-button {
+opacity: 0;
+position: absolute;
+top: 0;
+left: 0;
+margin-left: 0 ;
+cursor: pointer;
+}
+
+.radio-tile-group .input-container .radio-tile {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 50px;
+fill:#1F4D91;
+color: #7993BD;
+background-color: #7993BD;
+border: 2px solid #7993BD;
+border-radius: 5px;
+padding: 1rem;
+transition: transform 300ms ease;
+}
+
+.radio-tile-group .input-container .radio-tile-label {
+text-align: center;
+font-size: 0.75rem;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: white;
+}
+
+.radio-tile-group .input-container .radio-button:checked + .radio-tile {
+background-color: #1F4D91;
+color: #7993BD;
+transform: scale(1.1, 1.1);
+}
+
+.radio-tile-group .input-container .radio-button:checked + .radio-tile .radio-tile-label {
+color: white;
+background-color: #1F4D91;
+}
+  

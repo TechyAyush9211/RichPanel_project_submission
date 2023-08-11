@@ -1,0 +1,56 @@
+#signUpForm{
+    width: 300px;
+    padding: 20px;
+    margin: 8% auto 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+}
+.input-box{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 10px 5px 10px;
+    width: 90%;
+    border: 1px solid;
+    outline: none;
+}
+#signup-btn{
+    background-color:#1F4D91 ;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+label{
+    margin-left: 5px;
+    padding : 5px;
+    font-size: small;
+    font-weight: 500;
+}
+#rem{
+    margin: 0px;
+    padding: 0px;
+    font-size: medium;
+}
+#remember{
+    margin: 5px;
+    padding: 5px;
+}
+#allaccount{
+    padding: 5px;
+    margin: 5px 10px 5px 10px;
+    font-size: small;
+    text-align: center;
+}
